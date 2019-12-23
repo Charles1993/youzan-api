@@ -1,0 +1,8 @@
+conf:
+  path: E:/conf
+
+
+#日志路径
+logback:
+  file: E:/logs
+  folder: youzan-data-web

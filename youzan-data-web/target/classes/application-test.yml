@@ -1,0 +1,7 @@
+conf:
+  path: /usr/local/conf
+
+#日志路径
+logback:
+  file: /usr/local/apps/longsys/logs
+  folder: youzan-data-web

@@ -1,0 +1,27 @@
+server:
+  port: 8315
+
+spring:
+  application:
+    name: youzan-data-web
+  profiles:
+    active: dev
+  
+#mybatis:
+  #映射文件所在路径
+  #mapper-locations: classpath*:mapper/*.xml
+  #pojo类所在包路径
+  #type-aliases-package: com.longsys.bi.api.bean
+  
+http:
+  connectTimeout: 20
+  readTimeout: 30
+  clientId: 7828d2d913c8473655
+  clientSecret: d04c1a1b73a4a2e73ed4d7c5d662bf0d
+  grantId: 18691325
+
+quartz: 
+  #spring 定时任务线程池大小
+  threadPool: 15
+  
+  
